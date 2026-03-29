@@ -74,7 +74,7 @@ Flow:
     - **Users must have at least 3 enrollments to verify**
 3. [Verify](https://api.voiceit.io/?javascript#verify-a-user-s-voice-by-url)
     - Users that do not have enough enrollments will be redirected to enrollments
-    - If a user has bad enrollments(i.e. lots of background noise, poor connection at the time of the call, etc.), they can be deleted and redone. You can also check enrollments for a particular user in [dashboard](dashboard.voiceit.io)
+    - If a user has bad enrollments(i.e. lots of background noise, poor connection at the time of the call, etc.), they can be deleted and redone. You can also check enrollments for a particular user in [dashboard](https://dashboard.voiceit.io)
 
 ## Identification
 
