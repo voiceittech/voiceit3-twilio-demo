@@ -1,15 +1,15 @@
 ## Documentation 
 
-* VoiceIT API Docs can be found [here](https://api.voiceit.io)
+* VoiceIt API Docs can be found [here](https://api.voiceit.io)
 * The 120 supported languages and dialects can be found [here](https://api.voiceit.io/#content-languages-with-upcharge) 
 
 ## Prerequisites  
-* A VoiceIt account. VoiceIt offers an API for voice biometrics that we’ll be using during this blog. Follow this [link](https://voiceit.io/getstartednow) to sign up.
+* A VoiceIt account. VoiceIt offers an API for voice biometrics that we’ll be using during this blog. Follow this [link](https://voiceit.io/pricing) to sign up.
 * A Twilio account. Sign up [here](https://www.twilio.com/try-twilio) for a free trial
 * An Airtable account. Sign up [here](https://airtable.com/#) for a free trial. You could use a different database or CRM here as well with some code changes. 
 * A Linux or MacOS terminal with [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and the [Twilio CLI](https://www.twilio.com/docs/twilio-cli/quickstart) installed
 
-**Note:** Currently this project is deployed in node v14
+**Note:** Currently this project is deployed in Node 18+
 
 ## Setup 
 
@@ -78,7 +78,7 @@ Flow:
 
 ## Identification
 
-This can can be useful if there are multiple users on the same phone number. 
+This can be useful if there are multiple users on the same phone number. 
 
 Flow: 
 1. [Create a group](https://api.voiceit.io/?javascript#create-a-group)
@@ -87,4 +87,4 @@ Flow:
     - For efficiency try to stay below 40 users in each group
 3. [Make an identification call](https://api.voiceit.io/?javascript#identify-a-user-s-voice-by-url)
 
-Note the phrase and content language can be any of the 120 supported language and can be any custom phrase you add to your account
+Note the phrase and content language can be any of the 119 supported languages and can be any custom phrase you add to your account
