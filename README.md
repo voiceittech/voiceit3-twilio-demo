@@ -60,7 +60,7 @@ export AUTH_TOKEN=XXXXXXXXXXXXXXXXXXXXXX
 ```
 * Run twilio serverless:deploy to deploy your functions and assets to Twilio’s serverless environment. 
 ### Connect your Phone Number 
-* If you do not already have a Twilio Phone Number, follow [these instructions](https://support.twilio.com/hc/en-us/articles/223135247-How-to-Search-for-and-Buy-a-Twilio-Phone-Number-from-Console) to buy one. 
+* If you do not already have a Twilio Phone Number, follow [these instructions](https://www.twilio.com/docs/phone-numbers) to buy one. 
 Access the Active Numbers page in the Console. Click the desired phone number to modify.
 * Scroll to the Voice & Fax section. Under “Configure With”, select “Webhook, TwiML Bin, Function, Studio Flow, Proxy Service” from the drop down.
 * Under “A Call Comes In”, select “Function”.
