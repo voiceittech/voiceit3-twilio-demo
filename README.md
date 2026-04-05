@@ -96,3 +96,8 @@ Flow:
 3. [Make an identification call](https://api.voiceit.io/?javascript#identify-a-user-s-voice-by-url)
 
 Note the phrase and content language can be any of the 119 supported languages and can be any custom phrase you add to your account
+## Support
+
+If you find this SDK useful, please consider giving it a star on GitHub — it helps others discover the project!
+
+[![GitHub stars](https://img.shields.io/github/stars/voiceittech/VoiceIt3-Twilio-Demo?style=social)](https://github.com/voiceittech/VoiceIt3-Twilio-Demo/stargazers)
