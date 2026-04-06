@@ -9,8 +9,8 @@
 
 ## Documentation
 
-* VoiceIt API Docs can be found [here](https://api.voiceit.io)
-* The 120 supported languages and dialects can be found [here](https://api.voiceit.io/#content-languages-with-upcharge) 
+* VoiceIt API Docs can be found [here](https://voiceit.io/documentation)
+* The 120 supported languages and dialects can be found [here](https://voiceit.io/documentation#content-languages) 
 
 ## Prerequisites  
 * A VoiceIt account. VoiceIt offers an API for voice biometrics that we’ll be using during this blog. Follow this [link](https://voiceit.io/pricing) to sign up. Then log in to the [Dashboard](https://dashboard.voiceit.io) to manage your account.
@@ -77,11 +77,11 @@ Access the Active Numbers page in the Console. Click the desired phone number to
 ## Verification 
 
 Flow: 
-1. [Create a user](https://api.voiceit.io/?javascript#create-a-user)
+1. [Create a user](https://voiceit.io/documentation#create-a-user)
     - Made with VoiceIt.CreateUser API Call within incoming call
-2. [Enroll voice](https://api.voiceit.io/?javascript#create-voice-enrollment-by-url)
+2. [Enroll voice](https://voiceit.io/documentation#create-voice-enrollment-by-url)
     - **Users must have at least 3 enrollments to verify**
-3. [Verify](https://api.voiceit.io/?javascript#verify-a-user-s-voice-by-url)
+3. [Verify](https://voiceit.io/documentation#voice-verification)
     - Users that do not have enough enrollments will be redirected to enrollments
     - If a user has bad enrollments(i.e. lots of background noise, poor connection at the time of the call, etc.), they can be deleted and redone. You can also check enrollments for a particular user in [dashboard](https://dashboard.voiceit.io)
 
@@ -90,11 +90,11 @@ Flow:
 This can be useful if there are multiple users on the same phone number. 
 
 Flow: 
-1. [Create a group](https://api.voiceit.io/?javascript#create-a-group)
-2. [Add users to the group](https://api.voiceit.io/?javascript#create-a-group)
+1. [Create a group](https://voiceit.io/documentation#create-group)
+2. [Add users to the group](https://voiceit.io/documentation#create-group)
     - **Users must have at least 3 enrollments to be identified**
     - For efficiency try to stay below 40 users in each group
-3. [Make an identification call](https://api.voiceit.io/?javascript#identify-a-user-s-voice-by-url)
+3. [Make an identification call](https://voiceit.io/documentation#voice-identification)
 
 Note the phrase and content language can be any of the 119 supported languages and can be any custom phrase you add to your account
 ## Support
