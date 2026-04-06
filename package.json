@@ -14,7 +14,7 @@
     "@voiceittech/voiceit3-nodejs": "2.5.5"
   },
   "devDependencies": {
-    "eslint": "^8.21.0",
+    "eslint": "^10.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
