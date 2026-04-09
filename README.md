@@ -1,8 +1,8 @@
 # VoiceIt API 3.0 Twilio Demo
 
-[![Build](https://github.com/voiceittech/VoiceIt3-Twilio-Demo/actions/workflows/test.yml/badge.svg)](https://github.com/voiceittech/VoiceIt3-Twilio-Demo/actions/workflows/test.yml)
-[![Dependabot](https://img.shields.io/github/issues-pr/voiceittech/VoiceIt3-Twilio-Demo/dependencies?label=dependabot&logo=dependabot&color=025e8c)](https://github.com/voiceittech/VoiceIt3-Twilio-Demo/pulls?q=is%3Apr+label%3Adependencies)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/voiceittech/VoiceIt3-Twilio-Demo/blob/master/LICENSE)
+[![Build](https://github.com/voiceittech/voiceit3-twilio-demo/actions/workflows/test.yml/badge.svg)](https://github.com/voiceittech/voiceit3-twilio-demo/actions/workflows/test.yml)
+[![Dependabot](https://img.shields.io/github/issues-pr/voiceittech/voiceit3-twilio-demo/dependencies?label=dependabot&logo=dependabot&color=025e8c)](https://github.com/voiceittech/voiceit3-twilio-demo/pulls?q=is%3Apr+label%3Adependencies)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/voiceittech/voiceit3-twilio-demo/blob/master/LICENSE)
 [![Node](https://img.shields.io/badge/node-18%2B-brightgreen)](https://nodejs.org/)
 [![Twilio Serverless](https://img.shields.io/badge/twilio-serverless-red)](https://www.twilio.com/docs/serverless)
 [![VoiceIt API](https://img.shields.io/badge/VoiceIt-API%203.0-blue)](https://voiceit.io)
@@ -102,4 +102,4 @@ Note the phrase and content language can be any of the 119 supported languages a
 
 If you find this SDK useful, please consider giving it a star on GitHub — it helps others discover the project!
 
-[![GitHub stars](https://img.shields.io/github/stars/voiceittech/VoiceIt3-Twilio-Demo?style=social)](https://github.com/voiceittech/VoiceIt3-Twilio-Demo/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/voiceittech/voiceit3-twilio-demo?style=social)](https://github.com/voiceittech/voiceit3-twilio-demo/stargazers)
