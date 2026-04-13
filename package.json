@@ -8,10 +8,10 @@
     "deploy": "twilio-run deploy"
   },
   "dependencies": {
-    "@twilio/runtime-handler": "2.1.0",
-    "airtable": "0.11.4",
+    "@twilio/runtime-handler": "^2.1.0",
+    "airtable": "^0.12.2",
     "twilio": "^5.13",
-    "@voiceittech/voiceit3-nodejs": "3.0.4",
+    "@voiceittech/voiceit3-nodejs": "^3.0.4",
     "axios": "^1.15.0"
   },
   "devDependencies": {
@@ -22,6 +22,12 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "twilio-run": "^5.0.1"
+  },
+  "overrides": {
+    "cross-spawn": "^7.0.6",
+    "file-type": "^22.0.1",
+    "execa": "^9.0.0",
+    "clipboardy": "^4.0.0"
   },
   "engines": {
     "node": "18"
