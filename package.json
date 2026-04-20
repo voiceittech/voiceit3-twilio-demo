@@ -12,7 +12,7 @@
     "airtable": "^0.12.2",
     "twilio": "^5.13",
     "@voiceittech/voiceit3-nodejs": "^3.0.4",
-    "axios": "^1.15.0"
+    "axios": "^1.15.1"
   },
   "devDependencies": {
     "eslint": "^10.2.0",
