@@ -13,6 +13,17 @@
 * VoiceIt API Docs can be found [here](https://voiceit.io/documentation)
 * The 120 supported languages and dialects can be found [here](https://voiceit.io/documentation#content-languages) 
 
+## Telephony Audio Limitations
+
+> **Important:** Twilio phone call recordings are limited to **8 kHz, 8-bit, mono (mu-law)** — this is a fundamental limitation of the telephone network (PSTN/G.711), not Twilio or VoiceIt. This is significantly lower quality than the recommended **48 kHz, 16-bit, mono** used by the iOS, Android, and Web SDKs.
+>
+> Biometric accuracy over telephone recordings will be **reduced** compared to the native SDKs. Voice verification may produce lower confidence scores and higher false rejection rates. For production deployments requiring high biometric accuracy, use the native mobile or web SDKs instead of telephone-based enrollment/verification.
+>
+> | Source | Sample Rate | Bit Depth | Quality |
+> |--------|------------|-----------|---------|
+> | iOS/Android/Web SDK | 48 kHz | 16-bit | Optimal |
+> | Twilio phone call | 8 kHz | 8-bit | Reduced accuracy |
+
 ## Prerequisites  
 * A VoiceIt account. VoiceIt offers an API for voice biometrics that we’ll be using during this blog. Follow this [link](https://voiceit.io/pricing) to sign up. Then log in to the [Dashboard](https://dashboard.voiceit.io) to manage your account.
 * A Twilio account. Sign up [here](https://www.twilio.com/try-twilio) for a free trial
