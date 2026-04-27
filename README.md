@@ -15,14 +15,14 @@
 
 ## Telephony Audio Limitations
 
-> **Important:** Twilio phone call recordings are limited to **8 kHz, 8-bit, mono (mu-law)** — this is a fundamental limitation of the telephone network (PSTN/G.711), not Twilio or VoiceIt. This is significantly lower quality than the recommended **48 kHz, 16-bit, mono** used by the iOS, Android, and Web SDKs.
+> **Security Notice:** Twilio phone call recordings are limited to **8 kHz, 8-bit, mono (mu-law)** due to the telephone network (PSTN/G.711). At this low audio quality, the biometric engines have significantly less spectral data to distinguish a real voice from a deepfake or synthetic voice clone. This makes telephone-based verification more vulnerable to voice spoofing attacks than the native SDKs.
 >
-> Biometric accuracy over telephone recordings will be **reduced** compared to the native SDKs. Voice verification may produce lower confidence scores and higher false rejection rates. For production deployments requiring high biometric accuracy, use the native mobile or web SDKs instead of telephone-based enrollment/verification.
+> For production deployments, we strongly recommend integrating the **iOS, Android, or Web SDKs** directly into your mobile or web application rather than relying on phone calls. The native SDKs record at **48 kHz, 16-bit, mono**, which provides the full audio fidelity needed for both accurate speaker verification and robust deepfake rejection.
 >
-> | Source | Sample Rate | Bit Depth | Quality |
-> |--------|------------|-----------|---------|
-> | iOS/Android/Web SDK | 48 kHz | 16-bit | Optimal |
-> | Twilio phone call | 8 kHz | 8-bit | Reduced accuracy |
+> | Source | Sample Rate | Deepfake Defense |
+> |--------|------------|-----------------|
+> | iOS/Android/Web SDK | 48 kHz 16-bit | Full protection |
+> | Twilio phone call | 8 kHz 8-bit | Reduced — lower audio fidelity limits deepfake detection |
 
 ## Prerequisites  
 * A VoiceIt account. VoiceIt offers an API for voice biometrics that we’ll be using during this blog. Follow this [link](https://voiceit.io/pricing) to sign up. Then log in to the [Dashboard](https://dashboard.voiceit.io) to manage your account.
