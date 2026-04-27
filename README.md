@@ -1,6 +1,6 @@
 # VoiceIt API 3.0 Twilio Demo
 
-[![Build](https://github.com/voiceittech/voiceit3-twilio-demo/actions/workflows/test.yml/badge.svg)](https://github.com/voiceittech/voiceit3-twilio-demo/actions/workflows/test.yml)
+[![Build](https://github.com/voiceittech/voiceit3-twilio-demo/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/voiceittech/voiceit3-twilio-demo/actions/workflows/test.yml)
 [![Dependabot](https://img.shields.io/github/issues-pr/voiceittech/voiceit3-twilio-demo/dependencies?label=dependabot&logo=dependabot&color=025e8c)](https://github.com/voiceittech/voiceit3-twilio-demo/pulls?q=is%3Apr+label%3Adependencies)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/voiceittech/voiceit3-twilio-demo/blob/master/LICENSE)
 [![Node](https://img.shields.io/badge/node-18%2B-brightgreen)](https://nodejs.org/)
