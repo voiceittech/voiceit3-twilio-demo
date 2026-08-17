@@ -10,7 +10,7 @@
   "dependencies": {
     "@twilio/runtime-handler": "^2.1.0",
     "airtable": "^0.12.2",
-    "twilio": "^6.0",
+    "twilio": "^6.1",
     "@voiceittech/voiceit3-nodejs": "^3.0.4",
     "axios": "^1.19.0"
   },
